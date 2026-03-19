@@ -1,5 +1,5 @@
-000100 CHECK-SQLCODE-PARA.                                                      
-000200       EVALUATE TRUE                                                      
+000100 CHECK-SQLCODE-PARA-UPDATED                                               
+000200       EVALUATE TRUE UPDATED                                              
 000300         WHEN SQLCODE = 0                                                 
 000400           CONTINUE                                                       
 000410         WHEN SQLCODE = 100  AND EL-SQLCODE-IGNORE-100                    
